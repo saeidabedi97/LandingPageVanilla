@@ -1,0 +1,36 @@
+.team-section {
+  background: var(--bg--green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  padding-top: 25px;
+  margin-top: 35px;
+  height: 1100px;
+}
+
+h5 {
+  color: var(--white);
+  font-size: 35px !important;
+}
+
+.team-section div:nth-child(1n) {
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-section div:nth-child(1n) img {
+  width: 150px;
+  height: 150px;
+}
+
+.team-section div:nth-child(1n) p:nth-child(3) {
+  opacity: 0.8;
+}

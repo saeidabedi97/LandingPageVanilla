@@ -1,0 +1,39 @@
+.hero-section {
+  background-color: var(--bg--green);
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.hero-section div h1 {
+  font-size: 35px;
+  color: var(--white);
+  padding: 25px 0 25px 0;
+}
+
+.hero-section div p {
+  color: var(--white);
+}
+
+.hero-section div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-icon-container img:nth-child(1) {
+  width: 140px;
+  height: 60px;
+}
+.download-icon-container img:nth-child(2) {
+  width: 140px;
+  height: 60px;
+}
+.hero-section img {
+  width: 181px;
+  height: 336px;
+  /* margin-top: 25px; */
+}

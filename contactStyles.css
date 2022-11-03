@@ -1,0 +1,38 @@
+.contact-section {
+  padding-top: 15px;
+  height: 650px;
+}
+
+h6 {
+  font-size: 35px !important;
+  padding-left: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-row div:nth-child(1n) {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-row {
+  display: flex;
+  flex-direction: column;
+}

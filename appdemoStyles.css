@@ -1,0 +1,78 @@
+.app-demo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.step1-demo div:nth-child(2) img {
+  width: 181px;
+  height: 336px;
+}
+
+.step1-demo div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  margin-left: 20%;
+}
+
+.step1-demo div:nth-child(1) p {
+  opacity: 0.8;
+  margin-right: 45px;
+}
+
+.step1-demo div:nth-child(2) img {
+  margin-left: 85px;
+}
+
+.step2-demo {
+  padding-top: 45px;
+}
+.step2-demo div:nth-child(2) img {
+  width: 181px;
+  height: 336px;
+}
+
+.step2-demo div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  margin-left: 20%;
+}
+
+.step2-demo div:nth-child(1) p {
+  opacity: 0.8;
+  margin-right: 45px;
+}
+
+.step2-demo div:nth-child(2) img {
+  margin-left: 85px;
+}
+.step3-demo {
+  padding-top: 45px;
+}
+.step3-demo div:nth-child(2) img {
+  width: 181px;
+  height: 336px;
+  margin-left: 85px;
+}
+
+.step3-demo div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  margin-left: 20%;
+}
+
+.step3-demo div:nth-child(1) p {
+  opacity: 0.8;
+  margin-right: 45px;
+}

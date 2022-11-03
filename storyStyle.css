@@ -1,0 +1,17 @@
+.story-section {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.story-section h2 {
+  font-size: 35px;
+}
+
+.story-section div p:nth-child(1n) {
+  padding-left: 20px;
+  opacity: 0.8;
+}
