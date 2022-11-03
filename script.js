@@ -78,11 +78,11 @@ function featureSectionAnimation() {
 }
 
 function appDemoSectionAnimation() {
-  let tl4 = gsap.timeline({ scrollTrigger: step1Demo, start: "top top" });
+  let tl4 = gsap.timeline({ scrollTrigger: step1Demo, start: "center center" });
   tl4.from(header4, { opacity: 0, x: -40, duration: 0.5 });
-  tl4.from(step1Demo, { opacity: 0, x: -40, duration: 0.5 });
-  tl4.from(step2Demo, { opacity: 0, x: -40, duration: 0.5, delay: 1 });
-  tl4.from(step3Demo, { opacity: 0, x: -40, duration: 0.5, delay: 2 });
+  tl4.from(step1Demo, { opacity: 0, x: -40, duration: 0.5, delay: 1 });
+  tl4.from(step2Demo, { opacity: 0, x: -40, duration: 0.5, delay: 2 });
+  tl4.from(step3Demo, { opacity: 0, x: -40, duration: 0.5, delay: 3 });
 }
 
 function teamSectionAnimation() {
