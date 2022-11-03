@@ -29,7 +29,7 @@ let member3 = document.getElementById("team3");
 
 function heroSectionAnimation() {
   let tl = gsap.timeline();
-  tl.from(header1, { opacity: 0, duration: 1 });
+  tl.from(header1, { opacity: 0, duration: 0.5 });
   tl.from(tryText, { opacity: 0, y: 40, duration: 0.5 });
   tl.from(googlePlayIcon, { opacity: 0, y: 80, duration: 0.5 });
   tl.from(appStoreIcon, { opacity: 0, y: 80 });
@@ -42,13 +42,13 @@ function storySectionAnimation() {
   tl2.from(header2, {
     opacity: 0,
     y: -40,
-    duration: 1,
+    duration: 0.5,
   });
 
   tl2.from(storyParagraph, {
     opacity: 0,
     x: -40,
-    duration: 1,
+    duration: 0.5,
   });
 }
 
@@ -57,7 +57,7 @@ function featureSectionAnimation() {
   tl3.from(header3, {
     opacity: 0,
     y: -40,
-    duration: 1,
+    duration: 0.5,
   });
 
   tl3.from(feature1, {
